@@ -1,0 +1,47 @@
+# =========================
+# ENV / SECRETS
+# =========================
+.env
+/config/db.php
+
+# =========================
+# DEPENDENCIES
+# =========================
+/vendor/
+
+# =========================
+# RUNTIME / CACHE
+# =========================
+/runtime/
+/web/assets/
+
+# =========================
+# SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+nbproject/
+.buildpath
+.project
+.settings
+
+# =========================
+# COMPOSER / TESTS
+# =========================
+composer.phar
+/phpunit.xml
+phpunit.phar
+
+tests/_output/
+tests/_support/_generated/
+
+# =========================
+# VAGRANT
+# =========================
+.vagrant/

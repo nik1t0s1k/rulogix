@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Отключаем rewrite для существующих файлов и папок
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Перенаправляем всё в web/index.php
+RewriteRule ^(.*)$ web/index.php?r=$1 [QSA,L]
+
+# Защита папки web
+RewriteRule ^web/ - [L]
