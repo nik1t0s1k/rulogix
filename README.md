@@ -37,4 +37,5 @@ POST /ai/send
 /update chat
 /delete task
 
-admin login: 
+admin login: rulogAdmin
+admin password: rulogAdmin
